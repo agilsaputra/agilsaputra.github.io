@@ -68,19 +68,19 @@ button:focus {
 	
 	margin:16px;
   } 
-  .card-text{
-	 text-align: left;
-	 padding-left: 16px;
-	 
-
+.card-text{
+	text-align: left;
+	padding-left: 16px;
+	
+	
 
   }
-  .card-text p{
+.card-text p{
 	font-size: small;
 	color: grey;
 
   }
-  .card-btn{
+.card-btn{
 	  grid-area: btn;
 
 	  margin-right:15px;
@@ -90,7 +90,7 @@ button:focus {
     
   }
  
-  .btn{
+.btn{
 	background:#f9234a;
 	border-radius: 5px;
 	margin: 1px;
@@ -99,35 +99,35 @@ button:focus {
 	color: white;
 	align-items:center;
   }
-  .card-image01 {
+.card-image01 {
 	grid-area: image;
 	background: url("img01.jpg");
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	background-size: cover;
   }
-  .card-image02 {
+.card-image02 {
 	grid-area: image;
 	background: url("img02.jpg");
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	background-size: cover;
   }
-  .card-image03 {
+.card-image03 {
 	grid-area: image;
 	background: url("img03.jpg");
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	background-size: cover;
   }
-  .card-image04 {
+.card-image04 {
 	grid-area: image;
 	background: url("img04.jpg");
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	background-size: cover;
   }
-  .card-image05 {
+.card-image05 {
 	grid-area: image;
 	background: url("img05.jpg");
 	border-top-left-radius: 15px;
@@ -135,14 +135,14 @@ button:focus {
 	background-size: cover;
   }
 
-  .calendar{
+.calendar{
     position: sticky;
     top: 0;
     width: 100%;
 	background-color: white;
 	
 	}
-	.Modal {
+.Modal {
 		position:fixed;
 		top: 150px;
 		left: 0px;
@@ -152,7 +152,7 @@ button:focus {
 		overflow: hidden;
 		outline:none;
 	  }
-	.Overlay {
+.Overlay {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -185,6 +185,8 @@ button:focus {
 input{
 	margin-left:40px ;
 	padding:10px 60px;
+	text-align: center;
+	
 	
 
 	
@@ -208,7 +210,7 @@ input{
 	bottom: 0;
 	background-color: transparent;
 }
-	
+
 
  
   
